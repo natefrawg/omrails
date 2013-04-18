@@ -1,5 +1,3 @@
-require 'open-uri'
-
 class Pin < ActiveRecord::Base
   attr_accessible :description, :image, :image_remote_url
 
